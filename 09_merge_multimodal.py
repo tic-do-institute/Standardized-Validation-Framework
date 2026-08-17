@@ -1,13 +1,13 @@
 """
 ====================================================================
-Title:   09 - Multimodal Master Matrix Integration
+Title:   09 - EEG-Behavioral Master Matrix Integration
 Author:  Takafumi Shiga (TIC-DO Institute)
 ====================================================================
 Description:
-    This script integrates all modality-specific feature matrices 
-    (Behavior, EEG, Pupil, Autonomic) into a single master matrix.
-    It strictly enforces a Single Source of Truth by aligning data 
-    on 'subject' and 'trial_index'.
+    This script integrates the EEG-derived feature matrices (Complexity 
+    and Spectral) with the static behavioral performance matrix.
+    It rigorously enforces strict subject-trial alignment to prevent 
+    asynchronous mismatches.
 ====================================================================
 """
 import pandas as pd
