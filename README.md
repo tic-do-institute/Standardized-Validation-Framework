@@ -19,7 +19,7 @@ The pipeline enforces a strict modular sequence to prevent analytical confoundin
 To maximize methodological transparency and facilitate independent statistical verification, the core evaluation scripts (`10_` and `12_`) compute and output precise Standard Errors (SE) and 95% Confidence Intervals directly from the fitted `MixedLMResults` objects. 
 
 We provide the following supplementary audit files:
-*   **`generate_lmm_complete_table.py`**: A unified batch script used to compile the final Supplementary `Table S1` directly from the master matrices, ensuring absolute consistency across all evaluated datasets.
+*   **`generate_lmm_complete_table.py`**: A unified batch script used to compile the `Table 3` directly from the master matrices, ensuring absolute consistency across all evaluated datasets.
 
 ---
 
